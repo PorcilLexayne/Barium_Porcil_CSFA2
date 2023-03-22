@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ba_Porcil_FA2.css">
+    <title>Calculating Made Easy - Calculator</title>
+</head>
+<body>
+    <h1>Calculating Made Easy - Calculator</h1>
+    <p id="greetings">Good day! Welcome to Calculating Made Easy!</p>
+    <ul>
+        <li>1. We aim to help you with calculating integers (whole numbers) using different operators. </li>
+        <li>2. Although this calculator only accepts integer values, it may return decimal values when using the division operator. </li>
+        <li>3. We have 5 operators, each with different functions. </li>
+        <li>4. Use + for addition or when you want to add two numbers. </li>
+        <li>5. Use - for subtraction or when you want to subtract two numbers. </li>
+        <li>6. Use * for multiplication or when you want to multiply two numbers. </li>
+        <li>7. Use / for division or when you want to divide two numbers. </li>
+        <li>8. Use % for modulus or when you want to get the remainder of two numbers that are being divided. </li>
+        <li>9. Make sure that you have correctly placed your numbers in the two boxes below before clicking the operator you want to use. </li>
+        <li>10. Refresh the page if you want to input new numbers.</li>
+    </ul>
+    <input type="text" id="number1" placeholder="Num 1">
+    <input type="text" id="number2" placeholder="Num 2">
+    <button type="button" id="addition" onclick = "add()">+</button>
+    <button type="button" id="subtraction" onclick = "minus()">-</button>
+    <button type="button" id="multiplication" onclick = "multiply()">*</button>
+    <button type="button" id="division" onclick = "divide()">/</button>
+    <button type="button" id="modulus" onclick = "modulus()">%</button>
+    <p id="answer">Results will be displayed here.</p>
+    <script type="text/javascript" src="Ba_Porcil_FA2.js"></script>
+</body>
+</html>
